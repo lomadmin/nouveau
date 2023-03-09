@@ -1,27 +1,76 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            welcome to my area, waring because my panther is very dangerous
-        </title>
-        <link rel="stylesheet" href="CSS/index.css">
+        <link rel="stylesheet" href ="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+        <link rel = "stylesheet" href = "app/vendor/twbs/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel = "stylesheet" href = "CSS/index.css">
+
     </head>
     <body>
-        <h1>
-            je suis Mamadou Lom  </br>
-                le boss of the bosses , the gladiator of gladiators
-                I am a man 😁
-        </h1>
-        <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt obcaecati, voluptatem reiciendis porro ut mollitia repellendus minus vel quaerat qui tempora ipsam corporis rem animi quae quo distinctio. A, fugit.
-        Sequi animi quam adipisci ut magni, temporibus quidem neque blanditiis iure, sit accusamus, sapiente nemo. Ad saepe eveniet non odit expedita? Saepe aperiam rem eveniet in corporis cum consequuntur aspernatur.
-        Quidem dolorum neque et repellat. Minima cum alias non, eaque quibusdam, similique natus, quidem blanditiis distinctio autem molestias suscipit. Quaerat, suscipit? Consequatur fuga asperiores, debitis ratione amet laborum aut tempora?
-        Fugiat nulla perferendis sed corrupti praesentium numquam esse cumque facere cum id itaque, rerum impedit placeat, architecto, tempore maxime sit! Reiciendis sed, asperiores voluptates eius omnis numquam porro distinctio fuga.
-        Molestiae error, quis fugiat sapiente sunt reprehenderit dignissimos fugit velit eligendi asperiores id laudantium temporibus culpa quod. Sunt architecto accusantium esse itaque tempore tempora in numquam magnam fugiat, ut quidem?
-        Odio similique recusandae aliquid? Voluptatum laboriosam quas nostrum cumque quibusdam, tempora facere odio nisi fugiat omnis dignissimos, aspernatur laborum sit? Dolore, similique nihil voluptas qui unde impedit velit recusandae molestias?
-        Officiis quo maiores qui quia expedita molestiae, odit nesciunt placeat tempore vero repellendus mollitia rem aut sed nisi eos asperiores odio. Inventore dolorum dolorem ducimus, tenetur consectetur aut cupiditate ut.
-        In voluptatibus minima molestiae quos corporis. Voluptas commodi esse amet blanditiis obcaecaero assumenda dolorem molestiae impedit iusto blanditiis doloremque quaerat est porro fuga illum non dolore iste! Rem in
-         repudiandae suscipit.
+        <div class = "container">
+
+                <header> 
+                    <img src="images/charte/entete.jpg" class = "img-fluid" alt = " ça ne marche pas ">
+                <header>
+            
+            <div class = "row">
+
+         <!-- la methode main c'est tout ce qui se trouve aprés la balise header et avant la balise footer  -->
+        <main class = "col-md-9">
+                    <article class = "my-5">
+                        <h1 class = "bienvenueGreen">
+                            Bienvenue sur le Gigastore </br>
+                            plein d'idées de cadeaux à petits prix!
+                        </h1>
+
+                     <!-- pour mettre mes image côtes aà côtes sans se touchés j'ai utiliser card gril sur boostrp-->
+                        <p class = "text-center my-5">
+                        <img src="images/charte/special_paques2.png" alt="Special pâque">
+                        </p>
+                    </article>
+                    <article>
+                      <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card">
+                            <img src="images/produits/millenium-01.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title">Les hommes qui n'aiment pas les femmes</h3>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                            <img src="images/produits/millenium-02.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h3 class="card-title">La fille qui rêvait d'un bidon d'essence et d'une allumette</h3>             
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                            <img src="images/produits/millenium-03.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title">La reine dans le palais des courants d'air</h3>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+             </article>
+        </main>
+
+        <!-- la colonne de droite : ce qui permet de séparer la page en deux  -->
+
+                <aside class = "col-md-3 my-5 monjoliaside text-end">
+                    <img src="images/charte/nouveaute.png" alt="non">
+                </aside>
+        <!-- le pied  avec une balise footer -->
+
+            </div>
+            <footer>
+                <img src="/images/charte/banniere_pied.png" class = "img-fluid" alt="ça ne charge pas l'image">
+
+            </footer>
         </div>
+        
     </body>
 </html>
