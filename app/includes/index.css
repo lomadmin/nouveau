@@ -1,0 +1,14 @@
+
+.monjoliaside {
+    transform: rotate(-9deg);
+}
+
+.bienvenueGreen{
+    color: Green;
+}
+.secteur{
+    background-color: rgb(94, 106, 117);
+    color: white;
+    border-radius: 10px;
+}
+
