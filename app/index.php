@@ -17,7 +17,7 @@
                     <p>
                         <h1 class = "secteur p-5 mt-2"> Agence immobiliére</h1>
                     </p>
-            <diV class = " row gx-5" >
+            <div class = " row gx-5" >
                 <div class="col-md-4 ">
                     <p>
                         <h3 class ="ms-5 text-center">
